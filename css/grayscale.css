@@ -51,6 +51,13 @@ a {
     transition: all .2s ease-in-out;
 }
 
+a.projec-item {
+  color: #20ac79;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -326,6 +333,11 @@ ul.banner-logo-buttons {
 .carl-item{
   background-color: rgba(159, 159, 159, 0.7);
   border-radius: 10px;
+}
+
+.carl-text{
+  font-size: 95%;
+  color: #000;
 }
 
 @media(max-width:1199px) {
