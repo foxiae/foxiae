@@ -278,16 +278,53 @@ a:focus {
     bottom: 10px;
 }
 
-.download-section {
+.skill-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/skills-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+img.logo{
+  width: 60px;
+  height: 60px;
+}
+
+.logo-col{
+  background-color: rgba(255,255,255, 0.3);
+  padding: 15px 0px 10px 0px;
+}
+
+.logo-col:hover{
+  background-color: rgba(255,255,255);
+}
+
+ul.banner-logo-buttons {
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-logo-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-logo-buttons li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    ul.banner-logo-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 #map {
@@ -301,7 +338,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .skill-section {
         padding: 100px 0;
     }
 
