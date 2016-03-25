@@ -34,6 +34,18 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
+// About Me Slideshow Pictures
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  4000);
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
