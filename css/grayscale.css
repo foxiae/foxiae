@@ -323,6 +323,10 @@ ul.banner-logo-buttons {
     padding-right: 20px;
 }
 
+h3.carl-item, p.carl-item{
+  color:  ‎#000 !important;
+}
+
 @media(max-width:1199px) {
     ul.banner-logo-buttons {
         margin-top: 15px;
