@@ -323,8 +323,9 @@ ul.banner-logo-buttons {
     padding-right: 20px;
 }
 
-h3.carl-item, p.carl-item{
-  color:  ‎#000 !important;
+.carl-item{
+  background-color: rgba(159, 159, 159, 0.7);
+  border-radius: 10px;
 }
 
 @media(max-width:1199px) {
