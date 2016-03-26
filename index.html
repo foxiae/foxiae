@@ -78,16 +78,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                      <div id="typed-heading">
-                        <p><span class="brand-heading">Hello, World!</span></p>
-                      </div>
-                      <span id="t-heading"></span>
+                      <h1 class="brand-heading"><span class="t-heading"></span></h1>
+                    </div>
+                    <div class="col-md-8 col-lg-offset-2">
                       <div id="typed-subtitle">
                         <p><span class="intro-text">I'm Olivia.<br>And I do code.<br>Like Web Development.</span></p>
                       </div>
                       <span id="t-subtitle"></span>
+                    </div>
 
-                      <div class="col-md-8 col-md-offset-2">
+                      <div class="col-md-8 col-md-offset-2 arrow-btn-down">
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -292,14 +292,17 @@
     <script src="js/typed.js"></script>
     <script>
         $(function(){
-            $("#t-heading").typed({
-              stringsElement: $('#typed-heading'),
+            $(".t-heading").typed({
+              strings: ["Hello, World!"],
               typeSpeed: 100
             });
+
+
             $("#t-subtitle").typed({
               stringsElement: $('#typed-subtitle'),
-              typeSpeed: 100,
-              startDelay: 1000
+              typeSpeed: 70,
+              showCursor: false,
+              startDelay: 4000
             });
         });
     </script>
