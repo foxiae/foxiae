@@ -78,8 +78,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hello, World!</h1>
-                        <p class="intro-text">I'm Olivia.<br>And I do code.<br>Like Web Development.</p>
+                      <div id="typed-heading">
+                        <p><span class="brand-heading">Hello, World!</span></p>
+                      </div>
+                      <span id="t-heading"></span>
+                      <div id="typed-subtitle">
+                        <p><span class="intro-text">I'm Olivia.<br>And I do code.<br>Like Web Development.</span></p>
+                      </div>
+                      <span id="t-subtitle"></span>
+
+                      <div class="col-md-8 col-md-offset-2">
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -279,6 +287,22 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!-- Typed JS -->
+    <script src="js/typed.js"></script>
+    <script>
+        $(function(){
+            $("#t-heading").typed({
+              stringsElement: $('#typed-heading'),
+              typeSpeed: 100
+            });
+            $("#t-subtitle").typed({
+              stringsElement: $('#typed-subtitle'),
+              typeSpeed: 100,
+              startDelay: 1000
+            });
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
