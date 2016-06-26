@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Too Many Informations"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Olivia Brundage"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : #"https://codemethisolivia.com"
+baseurl                  : #"/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -161,6 +161,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-assets
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -170,6 +171,18 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# Assets
+assets:
+  autowrite: true
+  prefix: "/assets"
+  assets:
+    - "main.scss"
+  digest: true
+  sources:
+    - "_assets/scss"
+    - "_assets/css"
+    - "_assets/fonts"
+    - "_assets/js"
 
 # Archives
 #  Type
