@@ -6,5 +6,8 @@ main:
   - title: "Projects"
     url: https://codemethisolivia.com
 
+  - title: "Favorite Things"
+    url: /things/
+
   - title: "About"
     url: /about/

@@ -7,10 +7,10 @@ header:
   overlay_filter: "0.4"
   overlay_image: nebula.jpeg
 
-excerpt: "Learning can be overwhelming - especially learning something new. When you're drinking from the information fire hydrant, you need to talk about it."
+title: "Learning can be overwhelming - especially learning something new. When you're drinking from the information fire hydrant, you need to talk about it."
 
 intro:
-  - excerpt: 'Welcome to Too Many Inforamtions.'
+  - title: 'Welcome to Too Many Informations.'
 feature_row:
   - image_path: unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"

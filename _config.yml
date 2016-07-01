@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Too Many Informations"
@@ -13,21 +6,14 @@ name                     : "Olivia Brundage"
 description              : "An amazing website."
 url                      : #"https://codemethisolivia.com"
 baseurl                  : #"/blog"
-gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+gh_repo                  : https://github.com/foxiae
+teaser                   : http://thetomorrowshow.com/wp-content/uploads/2016/03/Teaser.jpg
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 
 # SEO Related
 google_site_verification :
@@ -37,11 +23,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : dothecodeolivia
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -63,33 +45,20 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
+  name             : "Olivia"
+  avatar           : "bio-profile.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "bmore"
+  email            : "oliviabrundage@gmail.com"
   uri              :
   bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
+  codepen          : "https://codepen.io/foxia"
   instagram        :
-  lastfm           :
   linkedin         :
   pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
+  twitter          : "dothecodeolivia"
   youtube          :
 
 
@@ -161,7 +130,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-assets
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -171,46 +140,23 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-# Assets
-assets:
-  autowrite: true
-  prefix: "/assets"
-  assets:
-    - "main.scss"
-  digest: true
-  sources:
-    - "_assets/scss"
-    - "_assets/css"
-    - "_assets/fonts"
-    - "_assets/js"
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+# Jekyll Archives
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -219,3 +165,17 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Defaults for posts
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      author_profile: true

@@ -1,8 +1,13 @@
 ---
 layout: single
+
 title:  "Welcome to Jekyll!"
 date:   2016-06-19 15:52:21 -0400
 categories: jekyll update
+
+header:
+  teaser: https://stormideaswus.blob.core.windows.net/headerjunction/2014/91/380f83e0-ffd0-41b6-abb7-aeea8811c69e.jpg
+  image: https://stormideaswus.blob.core.windows.net/headerjunction/2014/91/380f83e0-ffd0-41b6-abb7-aeea8811c69e.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

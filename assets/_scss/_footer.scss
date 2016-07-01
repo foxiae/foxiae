@@ -5,7 +5,7 @@
 .page__footer {
   @include full();
   @include clearfix;
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin-top: 3em;
   color: mix(#fff, $gray, 25%);
