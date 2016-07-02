@@ -7,8 +7,8 @@ date:   2016-06-29 15:52:21 -0400
 categories: test
 
 header:
-  teaser: http://demo.qodeinteractive.com/central/wp-content/uploads/2013/05/header.jpg
-  image: http://demo.qodeinteractive.com/central/wp-content/uploads/2013/05/header.jpg
+  teaser: city.jpg
+  image: city.jpg
 ---
 I AM A BIG TEST
 
