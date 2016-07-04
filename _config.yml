@@ -8,7 +8,7 @@ url                      : #"https://codemethisolivia.com"
 baseurl                  : #"/blog"
 gh_repo                  : https://github.com/foxiae
 teaser                   : http://thetomorrowshow.com/wp-content/uploads/2016/03/Teaser.jpg
-breadcrumbs              : true
+breadcrumbs              : false
 words_per_minute         : 200
 comments:
   provider               : "disqus"
