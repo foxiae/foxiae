@@ -1,0 +1,24 @@
+---
+layout: archive
+
+excerpt: "Learning can be overwhelming - especially learning something new. When you're drinking from the information fire hydrant, you need to talk about it."
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_image: nebula.jpeg
+
+title: "A Blog for Learners"
+---
+
+{% include base_path %}
+
+<h1>Welcome to Too Many Informations.</h1>
+
+<hr />
+
+<div class="grid__wrapper">
+  {% for post in site.posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
