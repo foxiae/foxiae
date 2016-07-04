@@ -4,10 +4,10 @@ main:
     url: /posts/
 
   - title: "Projects"
-    url: https://codemethisolivia.com
+    url: /projects/
 
   - title: "Favorite Things"
-    url: /things/
+    url: /favorites/
 
   - title: "About"
     url: /about/

@@ -122,6 +122,15 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: 	+404251-0740023
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path
+  favorites:
+    output: true
+    permalink: /:collection/:path
+
 
 # Plugins
 gems:
@@ -166,7 +175,7 @@ compress_html:
   ignore:
     envs: development
 
-# Defaults for posts
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -179,3 +188,21 @@ defaults:
       share: true
       related: true
       author_profile: true
+      defaults:
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      defaults:
+  # _favorites
+  - scope:
+      path: ""
+      type: favorites
+    values:
+      layout: single
+      author_profile: false
+      share: true
