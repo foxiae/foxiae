@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Code Me This, Olivia"
 title_separator          : "-"
 name                     : "Olivia Brundage"
-description              : "An amazing website."
+description              : "Anything and everything about life, web development, and cats."
 url                      : #"https://codemethisolivia.com"
 baseurl                  : #"/blog"
 gh_repo                  : https://github.com/foxiae
@@ -47,14 +47,14 @@ google_ad_slot           :
 author:
   name             : "Olivia"
   avatar           : "bio-profile.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Learning can be overwhelming - especially learning something new. When you're drinking from the information fire hydrant, you need to talk about it."
   location         : "bmore"
   email            : "oliviabrundage@gmail.com"
   uri              :
   bitbucket        :
   codepen          : "https://codepen.io/foxia"
   instagram        :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/obrundage"
   pinterest        :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
