@@ -1,7 +1,11 @@
 ---
-layout: archive
+layout: single
 
 title: "Favorite Things"
+
+sidebar:
+  - title: "Computer Things"
+    text: "Texty-text"
 ---
 
 {% include base_path %}

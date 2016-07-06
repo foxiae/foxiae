@@ -1,21 +1,37 @@
 ---
-layout: archive
+layout: splash
 
 title: "Projects"
 
-author_profile: false
-
 permalink: /projects/
+
+feature_row:
+  - image_path: projects/fitrep.png
+    title: "Fitrep"
+    excerpt: "[Fitrep](https://fitrep.herokuapp.com) is a reporting-based fitness tracker that measures your workout progress and keeps you on track of your fitness goals.
+
+
+
+    _Technologies used:_
+
+    :   - Rails
+
+       - Morris.JS
+
+       - SQLite (development database)
+
+       - Heroku (for deployment)
+
+       - PostgreSQL (deployment database)"
+    url: https://github.com/foxiae/fitrep
+    btn_label: "See on GitHub >>"
+    btn_class: "btn"
 ---
 
 {% include base_path %}
 
-#Here's what i'm currently working on....
+<h1>Projects</h1>
 
-<div class="grid__wrapper">
-  {% for post in site.portfolio %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+<hr />
 
-COMING SOON
+{% include feature_row  type="left" %}
