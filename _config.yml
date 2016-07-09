@@ -4,7 +4,7 @@ title                    : "Code Me This, Olivia"
 title_separator          : "-"
 name                     : "Olivia Brundage"
 description              : "Anything and everything about life, web development, and cats."
-url                      : #"https://codemethisolivia.com"
+url                      : "https://codemethisolivia.com"
 baseurl                  : #"/blog"
 gh_repo                  : https://github.com/foxiae
 teaser                   : http://thetomorrowshow.com/wp-content/uploads/2016/03/Teaser.jpg
