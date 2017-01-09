@@ -8,7 +8,7 @@ title:  "Automate Your Productivity"
 excerpt: "Here's a dabble in automating the simple things by creating a daemon to handle all that for you."
 ---
 # Automate Your Productivity
-
+{% include toc %}
 When I first created this blog, I had the unspoken goal of creating a blog post a month.
 Well, it's been quite awhile since my last post - so it's safe to say I haven't kept that goal. (Who knew getting a puppy would offset your schedule so much??)
 So while I've been hiatus, I've been researching the best ways to get productive. For awhile, I was using the Kaplan method with Trello, but I found I just wasn't getting things done. Everything felt crowded. I didn't have the comforting high-level view of the status _all_ my projects in one view.
@@ -22,12 +22,13 @@ But there was one hiccup - some of my tasks comes from issues provided on other 
 ## Create Ruby Script
 First, you need to create your Ruby script and save it in a safe place.
   For my script, I used the [omnifocus-pivotaltracker gem](https://github.com/vesan/omnifocus-pivotaltracker) gem. And the rest of the code is simple:
-  ```ruby
-  require 'rubygems'
-  require 'omnifocus'
 
-  OmniFocus.sync NERD_FOLDER
-  ```
+```ruby
+require 'rubygems'
+require 'omnifocus'
+
+OmniFocus.sync NERD_FOLDER
+```
 
   (NB: If you are using a gem that has an Applescript dependency, you need to use a Ruby version below 2.2.)
 
@@ -58,6 +59,7 @@ Check and make sure your file ran: `bash /usr/local/bin/my_daemon.sh`
 ## Create plist file
 Lastly, all you need to do now is create your .plist file, which informs launchd where your bash script is and how often to run it. Below is a version of what I'm currently using.
 You will save yours as `~/Library/LaunchAgents/com.yourdomain.projectname.plist`.
+
 (Change `yourdomain` and `projectname`.)
 
 ```xml
