@@ -3,7 +3,7 @@ layout: single
 
 categories: security
 
-title:  "Understanding Password Complexity"
+title: "Understanding Password Complexity"
 
 excerpt: "Understand what makes strong passwords and protect your online presence."
 ---
