@@ -84,7 +84,8 @@ Let's take a moment though to create a table for the needed amount of characters
 
 Clearly, the winner here with the fewest amount of characters needed is Diceware, but coming in second is ASCII characters as one would expect.
 
->**N.B.:** As measuring entropy relies on a randomly generated string. People are notoriously bad at generating random passwords. Our "randomness" will most likely come from things we use most often - like vowels. [One analysis](http://ijmcs.info/current_issue/IJMCS140807.pdf) showed that over 3 million eight-character passwords, the letter "e" was used over 1.5 million times, where the letter "f" was only used 250,000 times. Ideally, if characters were evenly distributed throughout these passwords, each character would only be used around 900,000 times.
+As measuring entropy relies on a randomly generated string. People are notoriously bad at generating random passwords. Our "randomness" will most likely come from things we use most often - like vowels. [One analysis](http://ijmcs.info/current_issue/IJMCS140807.pdf) showed that over 3 million eight-character passwords, the letter "e" was used over 1.5 million times, where the letter "f" was only used 250,000 times. Ideally, if characters were evenly distributed throughout these passwords, each character would only be used around 900,000 times.
+
 In short? Store your randomly generated password with [password manager](https://en.wikipedia.org/wiki/List_of_password_managers), create your passwords with a [random password generator](https://en.wikipedia.org/wiki/Random_password_generator), and don't use commonly known passwords.
 
 [^1]:
