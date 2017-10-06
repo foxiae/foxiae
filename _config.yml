@@ -6,7 +6,7 @@ name                     : "Olivia Brundage"
 description              : "Anything and everything about life, web development, and cats."
 url                      : "https://codemethisolivia.com"
 baseurl                  : #"/blog"
-gh_repo                  : https://github.com/foxiae
+gh_repo                  : https://github.com/oliikit
 teaser                   : http://thetomorrowshow.com/wp-content/uploads/2016/03/Teaser.jpg
 breadcrumbs              : false
 words_per_minute         : 200
@@ -58,7 +58,7 @@ author:
   pinterest        :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  twitter          : "dothecodeolivia"
+  twitter          : "oliikit"
   youtube          :
 
 
